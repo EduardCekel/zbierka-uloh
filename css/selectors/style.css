@@ -1,0 +1,16 @@
+.data {
+    border: 1px solid black;
+}
+.data tr > *{
+    padding: 2px;
+    border: 1px solid black;
+}
+
+.data th {
+    background-color: green;
+    font-weight: bolder;
+    text-align: center;
+}
+.data th::first-letter {
+    color: yellow;
+}
